@@ -1,0 +1,19 @@
+{
+    "name": "tester",
+    "packdir": "/tmp/composer_pack_client/",
+    "api": "http://up.test.nodevops.cn/up.php",
+    "pros": [
+        "/data/code/yundun/yundun_api_V4"
+    ],
+    "server": {
+        "ip": "0.0.0.0",
+        "port": 8083,
+        "listen": "0.0.0.0:8083",
+        "packdir": "/tmp/composer_pack_server/",
+        "http_read_timeout": 10,
+        "http_write_timeout": 10
+    },
+    "log_error": "./log_error.log",
+    "log_info": "./log_info.log"
+}
+
